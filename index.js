@@ -6,6 +6,7 @@ var fs = require('fs');
 var request = require('superagent');
 var temp = require('temp');
 
+
 var defaults = {
   client: 'chromium',
   clipSize: 15,
